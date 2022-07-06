@@ -1,0 +1,69 @@
+.container {
+    height: 300px;
+    width: 650px;
+    padding: 20px;
+    position: absolute;
+    background-color: rgb(238, 238, 238);
+    font-size: 20px;
+}
+
+.card {
+    float: left;
+    width: 30%;
+    margin: 10px;
+}
+
+.description {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+}
+
+.first_img {
+    height: 200px;
+    background-color: rgb(101, 194, 220);
+    position: relative;
+}
+
+.second_img {
+    height: 200px;
+    background-color: rgb(238, 188, 64);
+    position: relative;
+}
+
+.third_img {
+    height: 200px;
+    background-color: rgb(38, 159, 93);
+    position: relative;
+}
+
+.first {
+    position: absolute;
+    color: black;
+    font-size: 150px;
+    top: -25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.second {
+    position: absolute;
+    color: white;
+    font-size: 150px;
+    top: -25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.third {
+    position: absolute;
+    color: white;
+    font-size: 150px;
+    top: -25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
