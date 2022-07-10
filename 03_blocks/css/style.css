@@ -5,12 +5,25 @@
     position: absolute;
     background-color: rgb(238, 238, 238);
     font-size: 20px;
+    display: flex;
+    flex-flow: nowrap;
 }
 
 .card {
-    float: left;
     width: 30%;
     margin: 10px;
+}
+
+.card1  {
+    order: 2;
+}
+
+.card2  {
+    order: 3;
+}
+
+.card3  {
+    order: 1;
 }
 
 .description {
@@ -64,6 +77,14 @@
     font-size: 150px;
     top: -25%;
     left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+img    {
+    position: absolute;
+    top: 100%;
+    left: 90%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
